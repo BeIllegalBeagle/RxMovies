@@ -90,8 +90,8 @@
 			isa = PBXGroup;
 			children = (
 				19B6243B22675F5B002F2C7E /* Resource */,
-				19B6243A22675F53002F2C7E /* UserInterface */,
-				19B6243922675F32002F2C7E /* Controller */,
+				19B6243A22675F53002F2C7E /* View */,
+				19B6246222676A5E002F2C7E /* ViewModel */,
 				19B6243822675F2C002F2C7E /* Service */,
 				19B6243722675F27002F2C7E /* Extension */,
 				19B6243622675F22002F2C7E /* Model */,
@@ -126,22 +126,14 @@
 			path = Service;
 			sourceTree = "<group>";
 		};
-		19B6243922675F32002F2C7E /* Controller */ = {
+		19B6243A22675F53002F2C7E /* View */ = {
 			isa = PBXGroup;
 			children = (
-				19B6246722677072002F2C7E /* ViewController */,
-				19B6246222676A5E002F2C7E /* ViewModel */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		19B6243A22675F53002F2C7E /* UserInterface */ = {
-			isa = PBXGroup;
-			children = (
-				19B6243D22675F77002F2C7E /* View */,
+				19B6246722677072002F2C7E /* ViewControllers */,
+				19B6243D22675F77002F2C7E /* TableCells */,
 				19B6243C22675F71002F2C7E /* Storyboards */,
 			);
-			path = UserInterface;
+			path = View;
 			sourceTree = "<group>";
 		};
 		19B6243B22675F5B002F2C7E /* Resource */ = {
@@ -163,13 +155,13 @@
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
-		19B6243D22675F77002F2C7E /* View */ = {
+		19B6243D22675F77002F2C7E /* TableCells */ = {
 			isa = PBXGroup;
 			children = (
 				19B624482267620C002F2C7E /* MovieCell.swift */,
 				19B624492267620C002F2C7E /* MovieCell.xib */,
 			);
-			path = View;
+			path = TableCells;
 			sourceTree = "<group>";
 		};
 		19B6245D22676798002F2C7E /* TMDBAPI */ = {
@@ -191,13 +183,13 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		19B6246722677072002F2C7E /* ViewController */ = {
+		19B6246722677072002F2C7E /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
 				19B6244E226762E6002F2C7E /* MoviesListViewController.swift */,
 				19B6246A2267831D002F2C7E /* MoviesSearchListViewController.swift */,
 			);
-			path = ViewController;
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		546663133B144EFF9FFCDC32 /* Pods */ = {
